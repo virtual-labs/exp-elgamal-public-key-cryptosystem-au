@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/exp-elgamal-public-key-cryptosystem-au/simulation/static/css/main.3a373b32.css",
+    "main.js": "/exp-elgamal-public-key-cryptosystem-au/simulation/static/js/main.8dc7f75c.js",
+    "static/js/787.4cd775d3.chunk.js": "/exp-elgamal-public-key-cryptosystem-au/simulation/static/js/787.4cd775d3.chunk.js",
+    "static/media/eve.png": "/exp-elgamal-public-key-cryptosystem-au/simulation/static/media/eve.75aa539a5f1192968d5f.png",
+    "static/media/alice.png": "/exp-elgamal-public-key-cryptosystem-au/simulation/static/media/alice.4ad4dd87acefc9fd19ed.png",
+    "index.html": "/exp-elgamal-public-key-cryptosystem-au/simulation/index.html",
+    "main.3a373b32.css.map": "/exp-elgamal-public-key-cryptosystem-au/simulation/static/css/main.3a373b32.css.map",
+    "main.8dc7f75c.js.map": "/exp-elgamal-public-key-cryptosystem-au/simulation/static/js/main.8dc7f75c.js.map",
+    "787.4cd775d3.chunk.js.map": "/exp-elgamal-public-key-cryptosystem-au/simulation/static/js/787.4cd775d3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a373b32.css",
+    "static/js/main.8dc7f75c.js"
+  ]
+}
