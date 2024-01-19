@@ -2,38 +2,40 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+      "question": "What are the key components of the ElGamal public key cryptosystem?",
+      "options": [
+        "a. Symmetric key and public key",
+        "b. Private key and shared key",
+        "c. Public key and private key",
+        "d. Public key and session key"
+      ],
+      "explanation": "Correct. The ElGamal public key cryptosystem consists of a public key (g, p, y) and a private key (x).",
+      "correct_option": "c",
+      "difficulty": "intermediate"
     },
     {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+      "question": "In ElGamal, what is the public key composed of?",
+      "options": [
+        "a. (g, x, p)",
+        "b. (p, x, g)",
+        "c. (g, p, y)",
+        "d. (p, y, g)"
+      ],
+      "explanation": "Correct. The public key in ElGamal is (g, p, y), where y is calculated as (g^x) mod p.",
+      "correct_option": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "During ElGamal encryption, what does 'a' represent in the ciphertext (a, b)?",
+      "options": [
+        "a. Random integer",
+        "b. Shared secret",
+        "c. Generator of the group",
+        "d. Inverse of the private key"
+      ],
+      "explanation": "Correct. 'a' in the ciphertext (a, b) represents a random integer used in the encryption process.",
+      "correct_option": "a",
+      "difficulty": "intermediate"
     }
   ]
 }

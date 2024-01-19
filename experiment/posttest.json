@@ -2,38 +2,40 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+      "question": "What is the purpose of the ElGamal private key in the decryption process?",
+      "options": [
+        "a. To generate a random number",
+        "b. To compute temporary values",
+        "c. To compute the shared secret",
+        "d. To select a generator of the group"
+      ],
+      "explanation": "Correct. The ElGamal private key is used to compute the shared secret during decryption.",
+      "correct_option": "c",
+      "difficulty": "intermediate"
     },
     {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+      "question": "How is the original message recovered during ElGamal decryption?",
+      "options": [
+        "a. Using the private key",
+        "b. Multiplying by the shared secret",
+        "c. Computing the inverse of the temporary value",
+        "d. Exponentiating the ciphertext"
+      ],
+      "explanation": "Correct. The original message is recovered by multiplying the ciphertext by the inverse of the shared secret.",
+      "correct_option": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "In ElGamal encryption, why is it essential for the random number 'k' to be relatively prime to (p-1)?",
+      "options": [
+        "a. To ensure a unique session key",
+        "b. To prevent key leakage",
+        "c. To avoid weak key generation",
+        "d. To achieve better compression"
+      ],
+      "explanation": "Correct. Having 'k' relatively prime to (p-1) ensures a unique session key, enhancing security.",
+      "correct_option": "a",
+      "difficulty": "intermediate"
     }
   ]
 }
