@@ -4,10 +4,10 @@
     {
       "question": "What is the purpose of the ElGamal private key in the decryption process?",
       "answers": {
-        "a. To generate a random number",
-        "b. To compute temporary values",
-        "c. To compute the shared secret",
-        "d. To select a generator of the group"
+        "a": "To generate a random number",
+        "b": "To compute temporary values",
+        "c": "To compute the shared secret",
+        "d": "To select a generator of the group"
       },
       "explanations": {
         "a": "Incorrect. The ElGamal private key is not used to generate a random number during decryption.",
@@ -21,10 +21,10 @@
     {
       "question": "How is the original message recovered during ElGamal decryption?",
       "answers": {
-        "a. Using the private key",
-        "b. Multiplying by the shared secret",
-        "c. Computing the inverse of the temporary value",
-        "d. Exponentiating the ciphertext"
+        "a": "Using the private key",
+        "b": "Multiplying by the shared secret",
+        "c": "Computing the inverse of the temporary value",
+        "d": "Exponentiating the ciphertext"
       },
       "explanations": {
         "a": "Incorrect. The private key is not used directly to recover the original message in ElGamal decryption.",
@@ -38,10 +38,10 @@
     {
       "question": "In ElGamal encryption, why is it essential for the random number 'k' to be relatively prime to (p-1)?",
       "answers": {
-        "a. To ensure a unique session key",
-        "b. To prevent key leakage",
-        "c. To avoid weak key generation",
-        "d. To achieve better compression"
+        "a": "To ensure a unique session key",
+        "b": "To prevent key leakage",
+        "c": "To avoid weak key generation",
+        "d": "To achieve better compression"
       },
       "explanations": {
         "a": "Correct. Having 'k' relatively prime to (p-1) ensures a unique session key, enhancing security.",
