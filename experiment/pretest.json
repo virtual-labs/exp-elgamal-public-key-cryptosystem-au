@@ -5,10 +5,10 @@
 {
 "question": "What are the key components of the ElGamal public key cryptosystem?",
 "answers": {
-"a": Symmetric key and public key",
-"b": Private key and shared key",
-"c": Public key and private key",
-"d": Public key and session key"
+"a": "Symmetric key and public key",
+"b": "Private key and shared key",
+"c": "Public key and private key",
+"d": "Public key and session key"
 },
 "explanations": {
 "a": "Incorrect. ElGamal does not use a symmetric key in its public key cryptosystem.",
@@ -22,10 +22,10 @@
 {
 "question": "In ElGamal, what is the public key composed of?",
 "answers": {
-"a": (g, x, p)",
-"b": (p, x, g)",
-"c": (g, p, y)",
-"d": (p, y, g)"
+"a": "(g, x, p)",
+"b": "(p, x, g)",
+"c": "(g, p, y)",
+"d": "(p, y, g)"
 },
 "explanations": {
 "a": "Incorrect. The correct form of the ElGamal public key is (g, p, y).",
@@ -39,10 +39,10 @@
 {
 "question": "During ElGamal encryption, what does 'a' represent in the ciphertext (a, b)?",
 "answers": {
-"a": Random integer",
-"b": Shared secret",
-"c": Generator of the group",
-"d": Inverse of the private key"
+"a": "Random integer",
+"b": "Shared secret",
+"c": "Generator of the group",
+"d": "Inverse of the private key"
 },
 "explanations": {
 "a": "Correct. 'a' in the ciphertext (a, b) represents a random integer used in the encryption process.",
